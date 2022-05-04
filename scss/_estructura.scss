@@ -30,13 +30,11 @@ header{
 
 
 nav {
-    display: flex;
-    flex-flow: row wrap;
+   @include nav-flex;
     grid-area: nav;
     ul {    
         list-style: none;
-        display: flex;
-        flex-flow: row wrap;
+        @include nav-flex;
         margin: 0rem;
         li {
             margin: 10rem 1rem;
@@ -68,8 +66,7 @@ main{
     
 }
 .menu {
-    display: flex;
-    flex-flow: row wrap;
+    @include nav-flex;
     grid-area: menu;
 }
 .seccionVideo{
@@ -100,8 +97,7 @@ main{
 }
 
 .section2 {
-    display: flex;
-    flex-flow: row wrap;
+    @include nav-flex;
     justify-content: space-around;
     align-items: center;
 }
@@ -162,6 +158,8 @@ img {
 }
 
 .volver {
+    background-color: red;
+    color: black;
     font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -169,6 +167,12 @@ img {
     display: flex;
     justify-content: end;
     align-items: flex-end;
+}
+.volver1 {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+
 }
     
 

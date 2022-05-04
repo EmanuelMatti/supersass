@@ -1,0 +1,13 @@
+.volver {
+    background-color: red;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+ .volver1 {
+     @extend .volver
+     
+ }
+ 
