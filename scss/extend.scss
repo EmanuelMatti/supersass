@@ -6,8 +6,7 @@
     text-transform: uppercase;
     list-style-type: none;
 }
- .volver1 {
-     @extend .volver
-     
+ .volver--nuevo {
+     @extend .volver;
+     background-color:  rgb(161, 43, 43);
  }
- 
